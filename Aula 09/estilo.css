@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+#linha_topo {
+    position: fixed;
+    width: 100% ;
+    top: 0;
+}
+#topo {
+    background-color:#e86b31;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#topo #logo {
+    width: 180px;
+    height: 100px;
+    background-color: #aa4c21(255, 251, 0);
+    margin-right: 5%;
+}
+#topo h1 {
+    font-size: 30px;
+}
+
+
+#menu{
+    background-color:rgb(190, 99, 14);
+    display: flex;
+    justify-content: center;
+}
+#menu ul {
+    list-style: none;
+}
+#menu ul li {
+    display: inline;
+}
+#menu ul li a{
+    display: inline-block;
+    padding: 10px 20px;
+    color:rgb(0, 0, 0)
+}
+#menu ul li a:hover {
+    background-color: rgb(168, 168, 55);
+}
+main {
+    margin-top: 100px;
+}
+
+.card {
+    color: wheat;
+    width: 320px;
+    height: 435px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 157, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card figure {
+    width: 300px;
+    height: 310px;
+    background-color: cornsilk;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h2 {
+    margin-top: 10px;
+}
+
+
+
+#parte1 {
+    height: 100vh;
+    background-color: #a03f12;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+
+}
+#parte2 {
+    height: 100vh;
+    background-color: #a24a21;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    
+}
+#parte3 {
+    height: 100vh;
+    background-color: #bc5627;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+
+}
+#parte4 {
+    height: 100vh;
+    background-color: rgb(67, 45, 45);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+
+}
+#rodape {
+    height: 100px;
+    background-color:rgb(255, 119, 0);
+}
+#Imagem {
+    height: 125px;
+    width: 180px;
+}
